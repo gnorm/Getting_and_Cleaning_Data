@@ -15,7 +15,7 @@ SGSS <- unzip("./SGSS.zip", exdir = "./data")
 features <- read.table("./data/UCI HAR Dataset/features.txt", header = FALSE, stringsAsFactors = FALSE)
 unique(features)
 
-#######This is a list of the activities that are being monitored.
+######This is a list of the activities that are being monitored.
 
 activity_labels <- read.table("./data/UCI HAR Dataset/activity_labels.txt", header = FALSE, stringsAsFactors = FALSE)
 unique(activity_labels)
