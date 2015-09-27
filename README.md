@@ -66,6 +66,7 @@ dim(subjects)
 Checking to make sure the cbind worked as expected.
 
 Here I am assigning a more descriptive variable name to each of the variables in each of the data frames. I use the list of observations from the features data frame to assign variable names to the training data frame I also assign descriptive variable names to the variables in the subjects data frame.
+
 names(training) <- features$V2
 View(training)
 names(subjects) <- c("subjects", "activities")
