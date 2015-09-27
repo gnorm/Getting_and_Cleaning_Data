@@ -1,8 +1,8 @@
-### Getting_and_Cleaning_Data
-Creating a data directory that I will use to store data files in.
-if (!file.exists("./data")) {
-  dir.create("./data")
-}
+## Getting_and_Cleaning_Data
+###Creating a data directory that I will use to store data files in.
+###if (!file.exists("./data")) {
+###  dir.create("./data")
+###}
 Dowloading The Files
 #  Creating the data object fileUrlSGSS to store the web address for the zip file that contains the
 #  data package and downloading the file with the object value SGSS
